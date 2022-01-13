@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanCraft</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="https://discord.io/VanCraft">Discord</a></li>
+            <li><a href="">SOON</a></li>
+        </ul>
+        <div class="cta">
+            <a href="button"> Contatti</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero__content">
+            <p class="intero-text">BENVENUTO NEL SITO WEB DI VanCraft</p>
+            <h1 class="big-text">Se vuoi partecipare alla community Click su DISCORD</h1>
+            <a href="https://discord.io/VanCraft" class="button">DISCORD</a>
+        </div>
+    </div>
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+    $( document ).ready(function() {
+
+      /* Open Panel */
+      $( ".hamburger" ).on('click', function() {
+          $(".menu").toggleClass("menu--open");
+      });
+
+    });
+</script>
+
+    
+</body>
+</html>
